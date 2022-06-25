@@ -11,7 +11,7 @@ import Mongo from '../assets/mongo.png';
 import PhpLogo from '../assets/php.png';
 import PostgreLogo from '../assets/postgresql.png';
 import ExpressLogo from '../assets/express.png';
-// import SequelizeLogo from '../assets/logo_sequelize.svg';
+import SequelizeLogo from '../assets/logo_sequelize.png';
 import ComposeLogo from '../assets/logo_jcompose.png'
 import VscodeLogo from '../assets/logo_vscode.png'
 import AdsLogo from '../assets/logo_ads.png'
@@ -25,9 +25,9 @@ const Skills = () => {
                     <p className='py-4'>// These are the technologies I've worked with</p>
                 </div>
 
-                <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8'>
+                <div className='w-full grid grid-cols-4 sm:grid-cols-6 gap-4 text-center py-8'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Vue} alt="Vue icon" />
+                        <img className='w-20 mx-auto' src={AdsLogo} alt="Kotlin icon" />
                         <p className='my-4'>KOTLIN</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -35,7 +35,7 @@ const Skills = () => {
                         <p className='my-4'>JAVASCRIPT</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={PhpLogo} alt="Laravel icon" />
+                        <img className='w-20 mx-auto' src={PhpLogo} alt="Php icon" />
                         <p className='my-4'>PHP</p>
                     </div>
                     
@@ -56,29 +56,29 @@ const Skills = () => {
                         <p className='my-4'>MONGO DB</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={PostgreLogo} alt="Mongo icon" />
+                        <img className='w-20 mx-auto' src={PostgreLogo} alt="Postgres icon" />
                         <p className='my-4'>POSTGRESQL</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ExpressLogo} alt="Mongo icon" />
+                        <img className='w-20 mx-auto' src={ExpressLogo} alt="Express icon" />
                         <p className='my-4'>EXPRESS.JS</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Mongo} alt="Mongo icon" />
+                        <img className='w-20 mx-auto' src={SequelizeLogo} alt="Sequelize icon" />
                         <p className='my-4'>SEQUELIZE</p>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={ComposeLogo} alt="Mongo icon" />
+                        <img className='w-20 mx-auto' src={ComposeLogo} alt="Compose icon" />
                         <p className='my-4'>JETPACK COMPOSE</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={VscodeLogo} alt="Mongo icon" />
+                    {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={VscodeLogo} alt="VsCode icon" />
                         <p className='my-4'>VS CODE</p>
-                    </div>
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={AdsLogo} alt="Mongo icon" />
+                    </div> */}
+                    {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={AdsLogo} alt="ADS icon" />
                         <p className='my-4'>ANDROID STUDIO</p>
-                    </div>
+                    </div> */}
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={FireBase} alt="Mongo icon" />
                         <p className='my-4'>FIREBASE</p>

@@ -48,7 +48,7 @@ const Work = () => {
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100 duration-300'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Second Hand App
+                                Second Hand App APIs
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href='/'>
@@ -56,7 +56,7 @@ const Work = () => {
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/Doritos7/second-hand-backend'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -75,12 +75,12 @@ const Work = () => {
                                 Herb Identify Android
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://herblabsai.github.io/herbify/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
                                 </a>
-                                <a href='/'>
+                                <a href='https://github.com/herblabsai/herbify-app'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -88,6 +88,7 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
