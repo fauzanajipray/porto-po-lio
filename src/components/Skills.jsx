@@ -25,7 +25,7 @@ const Skills = () => {
                     <p className='py-4'>// These are the technologies I've worked with</p>
                 </div>
 
-                <div className='w-full grid grid-cols-4 sm:grid-cols-6 gap-4 text-center py-8'>
+                <div className='w-full grid grid-cols-3 sm:grid-cols-6 gap-1 sm:gap-4 text-center py-8'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={AdsLogo} alt="Kotlin icon" />
                         <p className='my-4'>KOTLIN</p>
@@ -71,14 +71,14 @@ const Skills = () => {
                         <img className='w-20 mx-auto' src={ComposeLogo} alt="Compose icon" />
                         <p className='my-4'>JETPACK COMPOSE</p>
                     </div>
-                    {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={VscodeLogo} alt="VsCode icon" />
                         <p className='my-4'>VS CODE</p>
-                    </div> */}
-                    {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    </div>
+                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={AdsLogo} alt="ADS icon" />
                         <p className='my-4'>ANDROID STUDIO</p>
-                    </div> */}
+                    </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={FireBase} alt="Mongo icon" />
                         <p className='my-4'>FIREBASE</p>
