@@ -15,7 +15,7 @@ const About = () => {
                 Hi!, My Name is <span className="font-bold">Fauzan Aji prayoga</span> 
                 <br></br>
                 <br></br>
-                Currently, I'm an Undergraduate Computer Science student from Dian Nuswantoro University. 
+                Currently, I'm a Computer Science student from Dian Nuswantoro University. 
                 I’m a Software Developer, especially build Native Android Apps and Websites.
                 <br></br>
                 <br></br>
