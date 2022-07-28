@@ -31,9 +31,9 @@ const Work = () => {
                                 Public Complaint
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='#'>
+                                <a href='https://sipmadu.januzanj.xyz'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                        Demo
+                                        Demo Server
                                     </button>
                                 </a>
                                 <a href='https://github.com/fauzanajipray/sispadu-android'>
@@ -54,7 +54,7 @@ const Work = () => {
                                 Second Hand App APIs
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='/'>
+                                <a href='https://second-hand-lac.vercel.app'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
@@ -126,11 +126,11 @@ const Work = () => {
                                 CMS Blog Laravel
                             </span>
                             <div className='pt-8 text-center'>
-                                {/* <a href='#'>
+                                <a href='https://blog.januzanj.xyz/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
-                                </a> */}
+                                </a>
                                 <a href='https://github.com/fauzanajipray/my-blog-laravel'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
